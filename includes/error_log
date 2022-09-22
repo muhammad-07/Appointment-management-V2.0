@@ -1,0 +1,1 @@
+[28-Dec-2016 13:53:44 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/codbuddy/public_html/demo/Appointment-management-V2.0/includes/selectboxget.php on line 18

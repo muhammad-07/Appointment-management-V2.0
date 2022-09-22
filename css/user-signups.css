@@ -1,0 +1,631 @@
+.signtxt {
+	color: rgba(25,145,145,0.9);
+	font: 20px Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	
+	text-align: left;
+	
+}
+
+@font-face {
+	font-family: 'CoconLight';
+	src: url('../fonts/CoconLight.eot');
+	src: local('../fonts/CoconLight'), url('../fonts/CoconLight.woff') format('woff'), url('../fonts/CoconLight.ttf') format('truetype');
+}
+			
+.slWrap{
+	width:100%;
+	max-width:870px;
+	position:relative;
+	float:center;
+	overflow:auto;
+	margin:0px auto;
+	
+}
+	.half{width:400px;position:relative;float:right;}
+	.sib{width:465px;position:relative;float:right;}
+	.ob{width:335px;position:relative;float:right;}
+	
+	.ob img{position:relative;float:center;margin:0 auto;width:200px; max-width:200px}
+	
+	.slBox{
+	width:100%;
+	max-width:400px;
+	position:relative;
+	float:center;
+	overflow:auto;
+	margin:15px auto;
+	/*background:rgba(255,245,245,0.5) url('../idmages/mac_apple_notebook_mouse_computer_white_gray_29674_1920x1080.jpg');*/
+	background:rgba(255,255,255,0.8);
+	border-radius:6px;
+	margin-top:50px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+	background-position:center top;
+	background-size:100px;
+}
+	.OtherBox{
+	width:100%;
+	max-width:400px;
+	position:relative;
+	float:left;
+	overflow:auto;
+	margin:15px auto;
+	text-align:left;
+	
+}
+
+	
+	.slFieldsPart{
+			position:relative;
+			float:left;
+			width:100%;
+			
+			padding:30px;
+			padding-top:5px;
+		}
+		
+		
+.userProf{
+	width:100%;
+
+	max-width:800px;
+	position:relative;
+	float:center;
+	overflow:auto;
+	margin:15px auto;
+	/*background:rgba(255,245,245,0.5) url('../idmages/mac_apple_notebook_mouse_computer_white_gray_29674_1920x1080.jpg');*/
+	background:rgba(255,255,255,0.8);
+	margin-top:90px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
+	background-position:center top;
+	background-size:700px;
+}
+
+		.fullPart{
+			position:relative;
+			float:left;
+			width:100%;
+			
+			padding:20px;
+			padding-left:37px;
+			padding-top:37px;
+			
+		}
+		.profImagePart{
+			position:relative;
+			float:left;
+			width:250px;
+			
+			padding:20px;
+			padding-left:37px;
+			padding-top:37px;
+			
+		}
+		.profFieldsPart{
+			position:relative;
+			float:left;
+			width:550px;
+			
+			padding:20px;
+			padding-right:30px;
+		}
+		.headText{
+			position:relative;
+			float:left;
+			padding:8px;
+			font-size:22px;
+			width:100%;
+			padding-left:20px;
+		}
+		.subHeadText{
+			position:relative;
+			float:left;
+			padding:8px;
+			font-size:18px;
+			width:100%;
+			padding-left:20px;
+			color:gray;
+			margin-top:25px;
+		}
+		.One100{
+			position:relative;
+			float:left;
+			float:left;
+			width:100%;
+			margin-top:-8px;
+			padding:8px;
+			margin-bottom:7px;
+			
+		}
+		.signwitlinkd{
+			position:relative;
+			float:left;
+			width:100%;
+			margin-top:8px;
+			background:red;
+			
+			
+		}
+		.MakeAnn{
+			position:relative;
+			float:left;
+			width:100%;
+			margin-top:15px;
+			padding:8px;
+			
+			background:rgba(255,255,255,0.5);
+		}
+		.SecHalf, .bgline{
+			position:relative;
+			float:left;
+			width:50%;
+			
+			padding:8px;
+			margin-bottom:7px;
+			
+		}
+		.Third{
+			position:relative;
+			float:left;
+			width:33.33333333333333%;
+			
+			padding:8px;
+			margin-bottom:7px;
+			
+		}
+		.Fourth{
+			width:25%;
+			position:relative;
+			float:left;
+			padding:8px;
+			margin-bottom:7px;
+		}
+		.saveBtn{
+			padding:5px;
+			margin-right:110px;
+			position:relative;
+			float:left;
+			font-size:9px;
+			
+		}
+		.saveBtn{
+			padding:5px;
+			margin-right:10px;
+			position:relative;
+			float:right;
+			font-size:9px;
+			
+		}
+		
+		.bglinex{
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								background: linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								
+								background-size:1px 50px;
+								background-repeat:no-repeat;
+								background-position: center center;
+		}
+		.FTWidth{
+			position:relative;
+			float:left;
+			
+			padding:8px;
+			margin-bottom:7px;
+			width:290px;
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								background: linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								
+								background-size:1px 60px;
+								background-repeat:no-repeat;
+								background-position: top 7px right 15px;
+			
+		}
+		.SingleWidth{
+			position:relative;
+			float:left;
+			
+			padding:8px;
+			padding-left:25px;
+			margin-bottom:7px;
+			width:150px;
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								background: linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.20) 40%, rgba(0,0,0,0) 100%);
+								
+								background-size:1px 60px;
+								background-repeat:no-repeat;
+								background-position: top 7px right 15px;
+			
+		}
+		
+			.labelTxt{
+				position:relative;
+				float:left;
+				width:100%;
+				font-family: 'CoconLight';
+				font-size:15px;
+			}
+			.TxtBox{
+				position:relative;
+				float:left;
+				width:100%;
+				max-width:250px;
+				padding:8px 7px;
+				background-color: #FFFFFF;
+				border: 2px solid #EBEBEB;
+				border-radius: 4px 4px 4px 4px;
+				color: #999999;
+				display: block;
+				font-size: 14px;
+				/*height: 34px;*/
+				line-height: 1.42857;
+				
+				transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+				vertical-align: middle;				
+			}
+			.heightAuto{height:auto}
+			.maxWidth100{width:100%; max-width:100%}
+			.Width100{width:100%}
+			.padding9px{padding:9px}
+			
+				.mTxtBox{
+				
+				margin-left:40px;
+				background:#fff;
+				font-family: 'CoconLight';
+				padding:5px 7px;
+					text-align:center;
+					width:100px;
+					
+				}
+				.disabl{
+					padding-left:2px;
+					text-align:center;
+					border:none;
+					border:2px solid #c1c1c1;
+					opacity:0.5;
+					background:rgba(155,145,145,0.5);
+					
+				} /*input[type=text]*/
+				.TxtBoxMini{
+					width:80px;
+					padding:3px 5px;
+					float:none;
+					background:#fff;
+				}
+				.tcenter{text-align:center}
+		
+		.copyrightd{
+			position:relative;
+			float:left;
+			width:100%;
+			height:40px;
+			/*box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+			background:gray;
+			border-top:1px inset #gray;*/
+			color: rgb(39, 25, 146);
+			font-family: 'CoconLight';
+			font-size:11px;
+	
+			
+			text-align:center;
+		}
+		.maintain{
+			color:#000;
+			font-size:10px;
+		}
+
+
+
+
+.incBoxWrap{
+	background:rgba(0,0,0,0.8);
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:2;
+	display:none;
+	left:0;
+	top:0;
+}
+.incBox{
+background:#fff;
+position:fixed;
+left:calc(50% - 200px);
+top:30%;
+clear: both;
+margin:0 auto;
+width:370px;
+z-index:3;
+padding:20px;
+-webkit-box-shadow: 1px 1px 15px rgba(0,0,0,0.9);
+	-moz-box-shadow: 1px 1px 15px rgba(0,0,0,0.9);
+	-o-box-shadow: 1px 1px 15px rgba(0,0,0,0.9);
+	-ms-box-shadow: 1px 1px 15px rgba(0,0,0,0.9);
+	box-shadow: 1px 1px 15px rgba(0,0,0,0.9);
+	
+	color:gray;
+	
+	font-size:16px;
+	
+}
+.fullWidth{
+	position:relative;
+	float:left;
+	width:100%;
+	
+	margin-bottom:15px;
+}
+.selectBox{
+	position:relative;
+	float:left;
+	width:100%;
+	padding:5px;
+}
+.DateBox{
+	position:relative;
+	float:left;
+	width:150px;
+	padding:5px;
+	text-align:center;
+}
+.btnclass{
+position:relative;
+float:right;
+}
+.cancel{
+position:relative;
+width:100px;margin-top:15px; float:left;
+font-size:12px;
+color:skyblue;
+cursor:pointer;
+}
+.red{color:red}
+.allHide{display:none}
+
+	
+						
+						.hdevider{
+					position: relative;
+					float:left;
+					width:80%;
+					height:1px;
+					margin-top:5px;
+					margin-bottom:10px;
+					
+					opacity:.3;
+						background: rgba(255,255,255,1);
+background: -webkit-linear-gradient(left, rgba(155,155,155,.2) 0%, rgba(148,146,148,1) 19%, rgba(155,155,155,.2) 100%);
+background: -moz-linear-gradient(left, rgba(155,155,155,.2) 0%, rgba(148,146,148,1) 19%, rgba(155,155,155,.2) 100%);
+background: -o-linear-gradient(left, rgba(155,155,155,.2) 0%, rgba(148,146,148,1) 19%, rgba(155,155,155,.2) 100%);
+background: -ms-linear-gradient(left, rgba(155,155,155,.2) 0%, rgba(148,146,148,1) 19%, rgba(155,155,155,.2) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(155,155,155,.2)), color-stop(19%, rgba(148,146,148,1)), color-stop(100%, rgba(155,155,155,.2)));
+background: linear-gradient(to right, rgba(155,155,155,.2) 0%, rgba(148,146,148,1) 19%, rgba(155,155,155,.2) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#f1f1f1', GradientType=1 );
+}
+					.hdevider3{
+					position: relative;
+					float:left;
+					width:60%;
+					height:1px;
+					
+					opacity:.3;
+						background: rgba(193,193,193,1);
+background: -moz-linear-gradient(left, rgba(193,193,193,1) 0%, rgba(148,146,148,1) 49%, rgba(193,193,193,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(193,193,193,1)), color-stop(49%, rgba(148,146,148,1)), color-stop(100%, rgba(193,193,193,1)));
+background: -webkit-linear-gradient(left, rgba(193,193,193,1) 0%, rgba(148,146,148,1) 49%, rgba(193,193,193,1) 100%);
+background: -o-linear-gradient(left, rgba(193,193,193,1) 0%, rgba(148,146,148,1) 49%, rgba(193,193,193,1) 100%);
+background: -ms-linear-gradient(left, rgba(193,193,193,1) 0%, rgba(148,146,148,1) 49%, rgba(193,193,193,1) 100%);
+background: linear-gradient(to right, rgba(193,193,193,1) 0%, rgba(148,146,148,1) 49%, rgba(193,193,193,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c1c1', endColorstr='#c1c1c1', GradientType=1 );
+						}
+						
+						.hdevider2{
+						opacity:.2;
+						
+					position: relative;
+					float:left;
+					width:80%;
+					height:2px;
+					margin:8px 0;
+						background: rgba(84,71,69,1);
+background: -moz-linear-gradient(left, rgba(84,71,69,1) 0%, rgba(193,193,193,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(84,71,69,1)), color-stop(100%, rgba(193,193,193,1)));
+background: -webkit-linear-gradient(left, rgba(84,71,69,1) 0%, rgba(193,193,193,1) 100%);
+background: -o-linear-gradient(left, rgba(84,71,69,1) 0%, rgba(193,193,193,1) 100%);
+background: -ms-linear-gradient(left, rgba(84,71,69,1) 0%, rgba(193,193,193,1) 100%);
+background: linear-gradient(to right, rgba(84,71,69,1) 0%, rgba(193,193,193,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#544745', endColorstr='#c1c1c1', GradientType=1 );
+						}
+.divider {
+								float:right;
+								position:relative;
+								width: 70px;
+								height: 360px;
+								background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.50) 40%, rgba(0,0,0,0) 100%);
+								background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.50) 40%, rgba(0,0,0,0) 100%);
+								background: linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.50) 40%, rgba(0,0,0,0) 100%);
+								opacity: .5;
+								background-size:2px 360px;
+								background-repeat:no-repeat;
+								background-position:center;
+								top:40px;
+							}
+.bigline{font-size:14px; line-height:18px}				
+.buttonb, .buttonxl, .buttoncxl, .buttongb, .button, .buttong, .buttonf, .buttonc, .buttoncn {
+cursor: pointer;
+background-color: rgb(230, 230, 230);
+background-repeat: no-repeat;
+background-image: linear-gradient(rgb(15, 20, 85), rgb(18, 28, 116) 25%, rgb(45, 48, 110));
+padding: 14px 14px;
+text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
+color: rgb(51, 51, 51);
+
+font-family: 'CoconLight';
+			font-size:16px;
+ line-height: normal; border-width: 1px;
+ border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187);
+ -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none;
+ -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05);
+ border-radius:3px; position:relative; width:70%; margin:15px auto; transition: all 0.1s linear 0s;
+ }
+.buttonb, .buttonxl, .button { color: rgb(255, 255, 255); text-decoration:none; background-color: rgb(39, 25, 146); background-repeat: repeat-x; /*background-image: -moz-linear-gradient(center top , rgb(39, 25, 146), rgb(39, 55, 196));*/ text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25); border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); }
+.button:link, .button:visited { color: rgb(255, 255, 255);}
+.buttong:link, .buttong:visited { color: rgb(51, 51, 51);}
+
+.buttonb:hover, .buttonxl:hover, .buttoncxl:hover, .button:hover, .buttonf:hover, .buttonc:hover { background-position: 0px -25px; color: rgb(255, 255, 255); text-decoration: none; }
+.buttongb:hover, .buttong:hover { background-position: 0px -15px; color: rgb(51, 51, 51); text-decoration: none; }
+.buttonb:focus, .buttonxl:focus, .buttoncxl:focus, .buttongb:focus, .button:focus, .buttong:focus, .buttonf:focus, .buttonc:focus { outline: 1px dotted rgb(102, 102, 102); }
+.buttonb:active, .buttonxl:active, .buttoncxl:active, .buttongb:active, .button:active, .buttong:active, .buttonf:active, .buttonc:active { box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25) inset, 0px 1px 2px rgba(0, 0, 0, 0.05); }
+.button, .buttong, .buttonf, .buttonc { padding: 5px 10px; font-size: 12px; line-height: 14px; }
+
+.button{
+padding:5px 7px;
+width:auto;
+}
+.buttong{
+padding:5px 7px;
+width:auto;
+background:#000;
+color:#fff;
+}
+.disablBIG{
+					border:1px solid gray;
+					background:#c1c1c1;
+					color:rgba(155,155,150,0.1);
+					box-shadow:none;
+					cursor:auto;	
+				}
+				.gs{
+	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	filter:grayscale(100%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); 
+    filter: gray;
+	
+}
+
+
+
+
+
+
+.upload-button {
+							position: relative;
+							overflow: hidden;
+							width:100%;
+							
+							border-radius:0px;
+							float: left; 
+							clear: left;
+	
+						}
+							.upload-button input[type="file"] {
+							    display: block;
+							    position: absolute;
+							    top: 0; left: 0;
+							    /*margin-left: -75px; *//* gets that button with no-pointer-cursor off to the left and out of the way */
+							    /*width: 200%;*/ /* over compensates for the above - I would use calc or sass math if not here*/
+							    height: 100%;
+							    opacity: 0; /* left this here so you could see. Make it 0 */
+								/*width:100px;*/
+								/*max-width:300px;*/
+							    cursor: pointer;
+							   
+							}
+							
+						.upload-cover { /* basicall just style this however you want */
+							text-align: center;
+							/* padding: .5em 1em;*/
+							/* border-radius: 2em;*/
+							border: 1px dashed #c1c1c1;
+							/*width:50%;*/
+							/*max-width:300px;*/
+							height:180px;
+							cursor: pointer;
+							color:gray;
+							font-weight:bold;
+							font-size:12px;
+							font-family:verdana !important;
+							
+							background-image:url('../images/plus-5-256.png');
+							background-repeat:no-repeat;
+							background-position: top 80px center;
+							background-size:30px;
+							content:select;
+							
+						}
+
+							.upload-cover  img {
+								max-width:100%;
+								max-height:100%;
+								border-radius:6px;
+							}
+							.upload-cover  #vimg {
+								max-width:100%;
+								max-height:100%;
+								border-radius:6px;
+							}
+							.upload-cover  span{
+								font-weight:normal;
+								font-size:12px;
+								font-family:CoconLight !important;
+							}
+
+
+
+
+						.upload-button:hover .upload-cover {
+  							 /*background-color: #c1c1c1;*/
+						}
+						
+						.changeImg{
+							position:absolute;
+							top:0;
+							left:0;
+							width:100%;
+							height:30px;
+							color:#000;
+							text-align:center;
+							font-size:12px;
+							opacity:0;
+							background-image:url('../images/edit.png');
+							background-position :right 13px top 3px;
+							background-repeat:no-repeat;
+							background-size:20px;
+						}
+						.upload-button:hover .changeImg{
+  							 opacity:0.5;
+						}
+	.green{color:green}
+	
+	
+
+
+@media only screen and (max-width: 750px) {
+
+	body .userProf,body .TxtBox {
+		max-width: 100%;
+		width: 100%;
+	}
+	body .profImagePart, body .profFieldsPart {
+		width: 100%;
+
+	}
+	body .upload-button input[type="file"] {
+
+		width: 100%;
+
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	body .SecHalf{
+			width:100%;
+			max-width:100%;
+	}
+
+}
